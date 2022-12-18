@@ -42,7 +42,7 @@ Next we reduced the columns of each dataframe.
 
 _________________________________________________________________________________________________________________________________________________________________________
 
-Average Weekly Earnings 
+#### Average Weekly Earnings 
 
 For the Average Weekly Earnings dataframe we removed column 1, 4, and 7 (Earnings for Male, Female, and Persons Full Time Ordinary Time Earnings WA) as we were only interested in the full time and part time earnings of Males, Females, and Persons in Western Australia.
 
@@ -51,7 +51,7 @@ The columns were renamed with more appropriate headings. Column 0 was renamed fr
 This completed the filtering and transformation of the Average Weekly Earnings dataframe.
 _________________________________________________________________________________________________________________________________________________________________________
 
-Labour Force
+#### Labour Force
 
 The columns for the Labour Force dataframe were filtered to only contain 7/85 columns using the iloc function in Jupyter Notebook. The columns kept were 0, 2, 5, 8, 11, 14, 17 and contained the Date, Employed Total Persons, Males and Females, and Employed Full Time Persons, Males and Females.
 
@@ -60,7 +60,7 @@ The seven columns kept were renamed to have more legible headings. Column 0 was 
 This completed the filtering and transformation of the Labour Force dataframe.
 _________________________________________________________________________________________________________________________________________________________________________
 
-Retail Turnover
+#### Retail Turnover
 
 Only two columns of 28 were kept in the filtering of the Retail Turnover dataframe, columns 0 and 14 by using the iloc function.
 Column 0 contained the date and was renamed appropriately.
