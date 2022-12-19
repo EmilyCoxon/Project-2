@@ -1,6 +1,6 @@
 protocol = 'postgresql'
 username = 'postgres'
-password = <ENTER PASSWORD>
+password = '2manyDerp$'
 host = 'localhost'
 port = 5432
-database_name = 'Final_db'
+database_name = 'Project2_db'
